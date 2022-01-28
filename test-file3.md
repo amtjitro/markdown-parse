@@ -1,1 +1,1 @@
-[a link (to a website)]((https://something.com))
+an example of an array is: [0,1,2,3]; you can't use (parentheses)!
