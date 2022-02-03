@@ -27,13 +27,13 @@ public class MarkdownParseTest {
 
     @Test
     public void testFile3() throws IOException{
-        assertEquals(List.of("(https://something.com"),
+        assertEquals(List.of(),
             MarkdownParse.getLinks(Files.readString(Path.of("test-file3.md"))));
     }
 
     @Test
     public void testFile4() throws IOException{
-        assertEquals(List.of("fakeimage.png"),
+        assertEquals(List.of(),
             MarkdownParse.getLinks(Files.readString(Path.of("test-file4.md"))));
     }
 
